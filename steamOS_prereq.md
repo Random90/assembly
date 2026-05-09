@@ -8,5 +8,6 @@ sudo pacman-key --populate holo
 
 sudo pacman -S nasm
 sudo pacman -S gcc
+sudo pacman -S glibc
 
 sudo steamos-readonly enable

@@ -7,3 +7,8 @@ Use NASM to assemble the add_values.asm file into an object file:
 Use GCC to compile and link the C code with the assembled object file:
 
 `gcc -o build/program src/main.c build/add_values.o`
+
+Debug notes:
+
+nm build/add_values.o | grep add_values
+0000000000000000 T ff_add_values_sse2
